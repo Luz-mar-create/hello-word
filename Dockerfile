@@ -2,7 +2,7 @@
 FROM php:8.1-apache
 
 # Copier le code de l'application dans le répertoire par défaut du serveur web
-COPY . /var/www/html/
+COPY . /var/www/html/hello-word/
 
 # Activer les modules Apache nécessaires
 RUN docker-php-ext-install mysqli && \
